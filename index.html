@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Q&A Bot</title>
+    <link rel="stylesheet" href="chatbot.css">
+    <script src="chatbot.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="leftsection" id="leftsection">
+            <button id="hidebtn">></button>
+            <div id="uploadboxdiv">
+                <div class="uploadbox">
+                    <p>Choose the type of file to upload (PDF, DOCX, TXT)</p>
+                    <button id="choosebtn">Choose</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="rightsection">
+            <div class="title">
+                <h2>Document Q&A Bot</h2>
+            </div>
+            <div class="chatcontainer" id="chatcontainer">
+                <div class="message usermessage">Hello, how can I use this bot?</div>
+                <div class="message botmessage">Hi! You can upload a document and ask questions about its content.</div>
+                <div class="message usermessage">What types of documents are supported?</div>
+                <div class="message botmessage">Currently, we support PDF, DOCX, and TXT files.</div>
+                <div class="message usermessage">Thanks, I'll upload a document now.</div>
+                <div class="message botmessage">Please click on the "Choose" button to select your file.</div>
+            </div>
+            <div class="inputcontainer">
+                <textarea id="userinput" placeholder="Ask a question..."></textarea>
+                <button id="sendbtn">➤</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
